@@ -1,4 +1,4 @@
-import math
+import math, random
 
 '''hours_prompt = "How many hours did you work? "
 rate_prompt = "What is your hourly rate? "
@@ -62,6 +62,17 @@ try:
 except:
     print("Please enter a number for both rate and hours.")'''
 
-print(math)
+'''print(math)
 print('hello world')
 print('git test')
+
+decibels = 10*math.log10(4)
+print(decibels)
+
+degrees = 45
+radians = degrees / 360 * 2 * math.pi
+print(radians)'''
+
+for i in range(10):
+    x = random.random()
+    print(x)
