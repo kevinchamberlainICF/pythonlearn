@@ -77,5 +77,19 @@ print(radians)'''
     x = random.random()
     print(x)'''
 
-y = random.randint(5,10)
-print(y)
+'''y = random.randint(5,10)
+print(y)'''
+
+#defining functions
+def print_lyrics():
+    print("test lyrics")
+    print("test line 2")
+
+#print_lyrics()
+
+#function in a function
+def repeat_lyrics():
+    print_lyrics()
+    print_lyrics()
+
+repeat_lyrics()
