@@ -81,7 +81,7 @@ print(radians)'''
 print(y)'''
 
 #defining functions
-def print_lyrics():
+'''def print_lyrics():
     print("test lyrics")
     print("test line 2")
 
@@ -92,4 +92,12 @@ def repeat_lyrics():
     print_lyrics()
     print_lyrics()
 
-repeat_lyrics()
+repeat_lyrics()'''
+
+# functions with arguments
+def print_twice(bruce):
+    print(bruce)
+    print(bruce)
+
+print_twice("Cat")
+print_twice(4)
