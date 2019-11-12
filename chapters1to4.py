@@ -95,9 +95,12 @@ def repeat_lyrics():
 repeat_lyrics()'''
 
 # functions with arguments
-def print_twice(bruce):
+'''def print_twice(bruce):
     print(bruce)
     print(bruce)
 
 print_twice("Cat")
 print_twice(4)
+print_twice(math.pi)
+print_twice('Spam '*4)
+print_twice('Span Spam Spam Spam')'''
