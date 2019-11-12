@@ -73,8 +73,9 @@ degrees = 45
 radians = degrees / 360 * 2 * math.pi
 print(radians)'''
 
-for i in range(10):
+'''for i in range(10):
     x = random.random()
-    print(x)
+    print(x)'''
 
-print('hello world')
+y = random.randint(5,10)
+print(y)
